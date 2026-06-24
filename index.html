@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- SEO Meta Tags -->
+    <title>AQUA LUXE RENOVATIONS | Bathroom & Kitchen Renovations South Africa</title>
+    <meta name="description" content="AQUA LUXE RENOVATIONS - Professional bathroom, kitchen, and interior renovations across South Africa. Full renovations, plumbing, tiling, lighting, and finishing. Quality workmanship at affordable prices.">
+    <meta name="keywords" content="bathroom renovation, kitchen renovation, interior design, plumbing, tiling, lighting installation, South Africa, AQUA LUXE">
+    <meta name="author" content="AQUA LUXE RENOVATIONS">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Floating WhatsApp & Call Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/27650813457" target="_blank" class="float-btn whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span class="btn-label">WhatsApp</span>
+        </a>
+        <a href="tel:+27650813457" class="float-btn call-btn">
+            <i class="fas fa-phone-alt"></i>
+            <span class="btn-label">Call Now</span>
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <span class="logo-bold">AQUA LUXE</span>
+            <span class="logo-light">RENOVATIONS</span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">HOME</a>
+            <a href="#services">SERVICES</a>
+            <a href="#gallery">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="menu-icon" id="menuIcon">☰</div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-image-bg">
+            <img src="images/frontP.jpg" alt="AQUA LUXE RENOVATIONS">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">PREMIUM RENOVATIONS</div>
+            <h1>BATHROOMS · KITCHENS<br><span class="gradient-text">INTERIORS</span></h1>
+            <p class="hero-subtitle">Full renovations | Plumbing & installations | Tiling & finishing</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">GET FREE QUOTE →</a>
+                <a href="#gallery" class="btn btn-outline">VIEW OUR WORK</a>
+            </div>
+            <div class="hero-stats">
+                <div><span class="stat-number">250+</span><br>Projects Complete</div>
+                <div><span class="stat-number">98%</span><br>Client Satisfaction</div>
+                <div><span class="stat-number">24/7</span><br>Consultation</div>
+            </div>
+        </div>
+        <div class="scroll-indicator">↓ SCROLL</div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">WHAT WE OFFER</span>
+                <h2>EXPERT RENOVATION SERVICES<br>ACROSS SOUTH AFRICA</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚿</div>
+                    <h3>Bathroom Renovations</h3>
+                    <p>Complete bathroom makeovers with modern fixtures, quality tiling, and expert plumbing</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍳</div>
+                    <h3>Kitchen Renovations</h3>
+                    <p>Custom kitchen designs with premium countertops, smart storage, and modern appliances</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛋️</div>
+                    <h3>Interior Design</h3>
+                    <p>Full interior transformations including bedrooms, living areas, and custom furniture</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Plumbing & Installations</h3>
+                    <p>Professional plumbing services for bathrooms, kitchens, and general installations</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📐</div>
+                    <h3>Tiling & Finishing</h3>
+                    <p>High-quality floor and wall tiling with flawless finishing and attention to detail</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💡</div>
+                    <h3>Lighting & Curtains</h3>
+                    <p>Modern lighting design and custom curtains to enhance your space</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">OUR PORTFOLIO</span>
+                <h2>SEE THE TRANSFORMATION</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">ALL PROJECTS</button>
+                <button class="filter-btn" data-filter="bathroom">BATHROOMS</button>
+                <button class="filter-btn" data-filter="bedroom">BEDROOMS</button>
+                <button class="filter-btn" data-filter="kitchen">KITCHENS</button>
+                <button class="filter-btn" data-filter="ceiling">CEILINGS</button>
+                <button class="filter-btn" data-filter="tvstand">TV STANDS</button>
+                <button class="filter-btn" data-filter="pergola">PERGOLAS</button>
+                <button class="filter-btn" data-filter="beforeafter">BEFORE & AFTER</button>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section class="video-section-bottom">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">WATCH OUR PROCESS</span>
+                <h2>SEE HOW WE WORK</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="video-wrapper-bottom" id="autoPlayVideoWrapper">
+                <video id="autoPlayVideo" muted playsinline preload="auto" loop poster="images/frontP.jpg">
+                    <source src="images/hero-video.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay-hidden" id="videoOverlay">
+                    <div class="play-icon">▶</div>
+                    <p>Watch our work in action</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BEFORE & AFTER SLIDER -->
+    <section class="beforeafter-showcase">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">BEFORE & AFTER</span>
+                <h2>REAL TRANSFORMATIONS</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="slider-container">
+                <div class="slider-images">
+                    <div class="slider-before-image">
+                        <img src="images/picBF.jpg" alt="Before renovation" id="sliderBeforeImg">
+                        <span class="image-label before-label">BEFORE</span>
+                    </div>
+                    <div class="slider-after-image">
+                        <img src="images/picBF1.jpg" alt="After renovation" id="sliderAfterImg">
+                        <span class="image-label after-label">AFTER</span>
+                    </div>
+                    <input type="range" min="0" max="100" value="50" id="slider" class="slider-input">
+                    <div class="slider-handle">⟷</div>
+                </div>
+            </div>
+            <div class="bf-buttons">
+                <button class="bf-btn active" data-bf="picBF.jpg|picBF1.jpg">BATHROOM PROJECT</button>
+                <button class="bf-btn" data-bf="picBF3.jpg|picB.jpg">KITCHEN PROJECT</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">WHY CHOOSE US</span>
+                <h2>QUALITY YOU CAN TRUST</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <h3>Quality Workmanship</h3>
+                    <p>Attention to detail and premium materials for lasting results</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Competitive rates without compromising on quality</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <h3>Fast Turnaround</h3>
+                    <p>Efficient project completion with minimal disruption</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <h3>Nationwide Service</h3>
+                    <p>Serving clients across South Africa with call-outs available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>READY TO TRANSFORM YOUR SPACE?</h2>
+            <p>Get a free quote today — no obligation, just expert advice</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/27650813457" target="_blank" class="btn btn-primary">📱 WhatsApp Us</a>
+                <a href="tel:+27650813457" class="btn btn-outline">📞 Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+        <video class="lightbox-content" id="lightboxVideo" controls style="display: none;"></video>
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">GET IN TOUCH</span>
+                <h2>LET'S DISCUSS YOUR PROJECT</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>AQUA LUXE RENOVATIONS</h3>
+                    <p>Transforming bathrooms, kitchens, and interiors into modern, stylish, functional spaces.</p>
+                    <div class="contact-details">
+                        <div><i class="fas fa-map-marker-alt"></i> Serving South Africa</div>
+                        <div><i class="fas fa-phone-alt"></i> <a href="tel:+27650813457">+27 65 081 3457</a></div>
+                        <div><i class="fab fa-whatsapp"></i> <a href="https://wa.me/27650813457">WhatsApp: +27 65 081 3457</a></div>
+                        <div><i class="fas fa-envelope"></i> <a href="mailto:aqualuxebath010@gmail.com">aqualuxebath010@gmail.com</a></div>
+                        <div><i class="fab fa-tiktok"></i> <a href="https://www.tiktok.com/@aqualuxerevamp">@aqualuxerevamp</a></div>
+                    </div>
+                    <div class="business-hours">
+                        <h4>📅 Open by appointment only</h4>
+                        <p>Call-outs & consultations available across South Africa</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone Number">
+                    <select>
+                        <option>Select Service</option>
+                        <option>Bathroom Renovation</option>
+                        <option>Kitchen Renovation</option>
+                        <option>Interior Design</option>
+                        <option>Plumbing & Installations</option>
+                        <option>Tiling & Finishing</option>
+                        <option>Lighting & Curtains</option>
+                    </select>
+                    <textarea rows="4" placeholder="Tell us about your project..."></textarea>
+                    <button type="submit" class="btn btn-primary">SEND MESSAGE →</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-bold">AQUA LUXE</span>
+                <span class="logo-light">RENOVATIONS</span>
+                <p>Quality workmanship | Affordable | Fast turnaround</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.tiktok.com/@aqualuxerevamp" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="mailto:aqualuxebath010@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/27650813457" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 AQUA LUXE RENOVATIONS — All rights reserved</p>
+            <p>Serving South Africa — Call-outs & consultations available nationwide</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
